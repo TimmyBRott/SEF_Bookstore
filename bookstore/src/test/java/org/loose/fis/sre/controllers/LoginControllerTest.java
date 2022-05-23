@@ -45,6 +45,6 @@ class LoginControllerTest {
 
         assertThat(robot.lookup("#registrationMessage").queryText()).hasText(
                 String.format("An account with the username %s doesn't exist!", ADMIN));
-
+        
     }
 }
